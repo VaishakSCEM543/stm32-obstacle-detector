@@ -1,0 +1,22 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install ARM GCC Compiler
+      run: |
+        sudo apt-get update
+        sudo apt-get install gcc-arm-none-eabi binutils-arm-none-eabi
+
+    - name: Verify Compiler Installation
+      run: arm-none-eabi-gcc --version
