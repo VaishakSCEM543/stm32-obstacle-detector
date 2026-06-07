@@ -1,0 +1,27 @@
+# System
+.DS_Store
+Thumbs.db
+
+# STM32CubeIDE specific
+Debug/
+Release/
+*.launch
+
+# Object files and executables
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.log
+
+# C/C++ build temporaries
+*.d
+*.su
+
+# IDE generated files (optional, but usually good to keep `.cproject` and `.project`)
+# We will NOT ignore .project, .cproject, .mxproject or .ioc
+# but we will ignore the metadata / settings that are user specific
+.metadata/
+.settings/
