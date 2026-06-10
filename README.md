@@ -2,7 +2,7 @@
 [![C/C++ CI](https://github.com/VaishakSCEM543/stm32-obstacle-detector/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/VaishakSCEM543/stm32-obstacle-detector/actions/workflows/c-cpp.yml)
 
 
-<img width="650" height="600" alt="WhatsApp Image 2026-06-10 at 9 28 16 PM" src="https://github.com/user-attachments/assets/89106143-e0ab-43ca-91e8-9ab713f13fc5" />
+<img width="700" height="600" alt="WhatsApp Image 2026-06-10 at 9 28 16 PM" src="https://github.com/user-attachments/assets/89106143-e0ab-43ca-91e8-9ab713f13fc5" />
 
 
 
