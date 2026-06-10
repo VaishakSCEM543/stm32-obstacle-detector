@@ -175,7 +175,12 @@ static void DHT_SetPinInput(void)
   HAL_GPIO_Init(DHT_PORT, &GPIO_InitStruct);
 }
 
-/* DHT Read: returns 1 if OK, 0 if fail */
+/**
+ * @brief Reads temperature and humidity from the DHT sensor using 1-wire protocol.
+ * @param temperature Pointer to store the read temperature.
+ * @param humidity Pointer to store the read humidity.
+ * @retval uint8_t 1 if successful, 0 if checksum or timeout fails.
+ */
 static uint8_t DHT_Read(uint8_t *temperature, uint8_t *humidity)
 {
   uint8_t data[5] = {0};
