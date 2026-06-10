@@ -48,6 +48,9 @@
 #define DIST_ALERT_CM   15
 #define DIST_WARN_CM    30
 
+/* Physical Constants */
+#define SPEED_OF_SOUND_CM_US 0.0343f
+
 /* USER CODE END PD */
 
 /* Private variables ---------------------------------------------------------*/
@@ -150,7 +153,7 @@ static float Ultrasonic_ReadDistanceCM(void)
 
   uint32_t diff_cycles = (t2 - t1);
   float time_us = (float)diff_cycles / (SystemCoreClock / 1000000.0f);
-  float dist = (time_us * 0.0343f) / 2.0f;
+  float dist = (time_us * SPEED_OF_SOUND_CM_US) / 2.0f;
 
   return dist;
 }
