@@ -115,7 +115,10 @@ static void LED_ON(void)     { HAL_GPIO_WritePin(LED_PORT, LED_PIN, GPIO_PIN_RES
 static void BUZZER_OFF(void) { HAL_GPIO_WritePin(BUZZER_PORT, BUZZER_PIN, GPIO_PIN_SET); }
 static void BUZZER_ON(void)  { HAL_GPIO_WritePin(BUZZER_PORT, BUZZER_PIN, GPIO_PIN_RESET); }
 
-/* Ultrasonic distance */
+/**
+ * @brief Reads distance from the HC-SR04 Ultrasonic sensor using DWT.
+ * @retval float Distance in centimeters, or -1.0 on timeout.
+ */
 static float Ultrasonic_ReadDistanceCM(void)
 {
   uint32_t t1 = 0, t2 = 0;
