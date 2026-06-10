@@ -1,4 +1,5 @@
 # Multi-Sensor Environmental & Reverse Alert System (STM32)
+[![C/C++ CI](https://github.com/VaishakSCEM543/stm32-obstacle-detector/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/VaishakSCEM543/stm32-obstacle-detector/actions/workflows/c-cpp.yml)
 
 ## Introduction
 This repository contains the bare-metal firmware for an STM32-based multi-sensor monitoring system. Designed for real-time spatial awareness and environmental monitoring, the system integrates an HC-SR04 ultrasonic sensor for distance measurement, a DHT sensor for temperature and humidity, and a digital LDR for ambient light detection. The system provides immediate audiovisual feedback (LED & Buzzer) based on configurable safety thresholds and streams continuous telemetry via UART.
