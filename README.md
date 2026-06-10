@@ -1,7 +1,8 @@
 # Multi-Sensor Environmental & Reverse Alert System (STM32)
 [![C/C++ CI](https://github.com/VaishakSCEM543/stm32-obstacle-detector/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/VaishakSCEM543/stm32-obstacle-detector/actions/workflows/c-cpp.yml)
 
-<img width="852" height="1280" alt="WhatsApp Image 2026-06-10 at 9 28 16 PM" src="https://github.com/user-attachments/assets/0d7e1b84-583a-4c6c-992e-588c70b72b46" />
+![Uploading WhatsApp Image 2026-06-10 at 9.28.16 PM.jpeg…]()
+
 
 
 ## Introduction
